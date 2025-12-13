@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# case statement
+c=1
+while [ $c -le 20 ]
+do
+echo "$c"
+case $c in
+4)
+echo "bad luck from China"
+;;
+9)
+echo "bad luck from Japan"
+;;
+17)
+echo "bad luck from China"
+;;
+esac
+
+((count++))
+done
