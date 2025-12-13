@@ -16,5 +16,5 @@ echo "bad luck from Italy"
 ;;
 esac
 
-((count++))
+((c++))
 done
