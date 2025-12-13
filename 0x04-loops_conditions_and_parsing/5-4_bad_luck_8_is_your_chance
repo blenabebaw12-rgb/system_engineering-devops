@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # elif statement
 count=1
+
 while [ $count -le 10 ]
 do 
   if [ $count -eq 4 ]
@@ -10,7 +11,7 @@ do
   then 
     echo "good luck"
   else 
-    echo "Best school"
+    echo "Best School"
   fi
 
   ((count++))
