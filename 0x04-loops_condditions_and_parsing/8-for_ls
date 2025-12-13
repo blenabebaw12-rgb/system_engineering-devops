@@ -1,0 +1,6 @@
+#!/use/bin/env bash
+# for file
+for file in *
+do 
+echo "$(file#*-)"
+done
