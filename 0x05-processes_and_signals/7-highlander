@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 # Send SIGTERM to 7-highlander processes and output OK
 
-SIGTERM_COUNT=0
-
 # Handle SIGTERM: increment counter and print message
 trap 'echo "I am invincible!!!"' SIGTERM
 
