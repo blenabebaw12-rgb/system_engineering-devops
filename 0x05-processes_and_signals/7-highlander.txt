@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Send SIGTERM to 7-highlander processes and output OK
+
+SIGTERM_COUNT=0
+
+# Handle SIGTERM: increment counter and print message
+trap 'SIGTERM_COUNT=$((SIGTERM_COUNT+1)); echo "I am invincible!!!"' SIGTERM
+
+# Infinite loop
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
