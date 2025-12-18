@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# listing process with the word bash
+
+ps -eo user,start_time,cmd | grep bash
