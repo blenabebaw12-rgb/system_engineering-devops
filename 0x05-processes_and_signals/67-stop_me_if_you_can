@@ -7,3 +7,4 @@ PIDS=$(ps -ef | grep "[7]-highlander" | awk '{print $2}')
 for PID in $PIDS; do
     kill -TERM $PID
 done
+echo"OK"
